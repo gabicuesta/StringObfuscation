@@ -14,6 +14,7 @@
 		09D6B85D1EE92E2F00706EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D6B85B1EE92E2F00706EFD /* LaunchScreen.storyboard */; };
 		09D6B8681EE92E2F00706EFD /* StringObfuscationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B8671EE92E2F00706EFD /* StringObfuscationTests.swift */; };
 		09D6B8731EE92E2F00706EFD /* StringObfuscationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B8721EE92E2F00706EFD /* StringObfuscationUITests.swift */; };
+		09D6B8811EE92FD700706EFD /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B8801EE92FD700706EFD /* Obfuscator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		09D6B86E1EE92E2F00706EFD /* StringObfuscationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringObfuscationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D6B8721EE92E2F00706EFD /* StringObfuscationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringObfuscationUITests.swift; sourceTree = "<group>"; };
 		09D6B8741EE92E2F00706EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D6B8801EE92FD700706EFD /* Obfuscator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obfuscator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				09D6B8521EE92E2F00706EFD /* AppDelegate.swift */,
+				09D6B8801EE92FD700706EFD /* Obfuscator.swift */,
 				09D6B8541EE92E2F00706EFD /* ViewController.swift */,
 				09D6B8561EE92E2F00706EFD /* Main.storyboard */,
 				09D6B8591EE92E2F00706EFD /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			files = (
 				09D6B8551EE92E2F00706EFD /* ViewController.swift in Sources */,
 				09D6B8531EE92E2F00706EFD /* AppDelegate.swift in Sources */,
+				09D6B8811EE92FD700706EFD /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
